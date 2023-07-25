@@ -12,6 +12,6 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/home.html");
 });
 
-app.listen(puerto, () => {
+app.listen( process.env.PORT || puerto, () => {
   console.log("Aplicación esuchando en puerto 3001");
 });
