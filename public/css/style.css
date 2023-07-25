@@ -27,20 +27,39 @@ header {
   padding: 10px;
   margin: 0;
 }
-.barra_busqueda{
-    margin-top: 6px;
-    width: 100%;
+
+form{
+  background-color: white;
+  
 }
 .input_busqueda{
   width: 200px;
-  margin-right: 15px;
+  border: 1px solid transparent;
+  padding-left: 10px;
 }
+
+.input_busqueda:focus{
+  outline: none;
+
+}
+
+form button {
+  border: 1px solid transparent;
+  border-radius:none;
+  background-color: white;
+  transition: all 1s;
+}
+
+form button:hover{
+  background-color: rgb(32, 80, 224);
+}
+
+
 #search-icon{
-  font-size: 16px;
-  padding: 4px;
-  border: solid black 1px;
-  background-color: #ebebeb;
-  border-radius: 3px;
+  font-size: 1.3rem;
+  padding: 10px;
+  /* background-color: white; */
+  border-left: 1px  solid grey;
 }
 #icon_hand{
   margin-right: 10px;
